@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1840A880209C0C460085F7E5 /* exportOptionsPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1840A87F209C0C450085F7E5 /* exportOptionsPlist.plist */; };
 		184D44AB2094160D00E7BD8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D44AA2094160D00E7BD8A /* AppDelegate.m */; };
 		184D44AE2094160D00E7BD8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D44AD2094160D00E7BD8A /* ViewController.m */; };
 		184D44B12094160D00E7BD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184D44AF2094160D00E7BD8A /* Main.storyboard */; };
@@ -17,6 +16,13 @@
 		184D44C32094161400E7BD8A /* TestScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D44C22094161400E7BD8A /* TestScrollViewTests.m */; };
 		184D44CE2094161400E7BD8A /* TestScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D44CD2094161400E7BD8A /* TestScrollViewUITests.m */; };
 		184D44DE209477B600E7BD8A /* YMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D44DD209477B600E7BD8A /* YMScrollView.m */; };
+		1857822A20B64F5C00CE7CFC /* UIImage+MLDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857822920B64F5C00CE7CFC /* UIImage+MLDraw.m */; };
+		18A32BDA20B55E3000A2F23F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18A32BD920B55E3000A2F23F /* 1.jpg */; };
+		18A32BDD20B5608500A2F23F /* UIImage+TestImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BDC20B5608500A2F23F /* UIImage+TestImage.m */; };
+		18B8ACB920BBF62700D3C19A /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8ACB720BBF62700D3C19A /* UIImageView+CornerRadius.m */; };
+		18B8ACC020BBF78200D3C19A /* YMDiaryPostsCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8ACBA20BBF77F00D3C19A /* YMDiaryPostsCellManager.m */; };
+		18B8ACC120BBF78200D3C19A /* YMDiaryPostsBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8ACBB20BBF78000D3C19A /* YMDiaryPostsBaseLayout.m */; };
+		18B8ACC220BBF78200D3C19A /* YMDiaryPostsCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8ACBC20BBF78000D3C19A /* YMDiaryPostsCellLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1840A87F209C0C450085F7E5 /* exportOptionsPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = exportOptionsPlist.plist; path = ../../../../Documents/test/exportOptionsPlist.plist; sourceTree = "<group>"; };
 		184D44A62094160D00E7BD8A /* TestScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184D44A92094160D00E7BD8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		184D44AA2094160D00E7BD8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +61,19 @@
 		184D44CF2094161400E7BD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184D44DC209477B600E7BD8A /* YMScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMScrollView.h; sourceTree = "<group>"; };
 		184D44DD209477B600E7BD8A /* YMScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMScrollView.m; sourceTree = "<group>"; };
+		1857822820B64F5C00CE7CFC /* UIImage+MLDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLDraw.h"; sourceTree = "<group>"; };
+		1857822920B64F5C00CE7CFC /* UIImage+MLDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLDraw.m"; sourceTree = "<group>"; };
+		18A32BD920B55E3000A2F23F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		18A32BDB20B5608500A2F23F /* UIImage+TestImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TestImage.h"; sourceTree = "<group>"; };
+		18A32BDC20B5608500A2F23F /* UIImage+TestImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TestImage.m"; sourceTree = "<group>"; };
+		18B8ACB720BBF62700D3C19A /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		18B8ACB820BBF62700D3C19A /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		18B8ACBA20BBF77F00D3C19A /* YMDiaryPostsCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsCellManager.m; sourceTree = "<group>"; };
+		18B8ACBB20BBF78000D3C19A /* YMDiaryPostsBaseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsBaseLayout.m; sourceTree = "<group>"; };
+		18B8ACBC20BBF78000D3C19A /* YMDiaryPostsCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsCellLayout.m; sourceTree = "<group>"; };
+		18B8ACBD20BBF78100D3C19A /* YMDiaryPostsCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsCellManager.h; sourceTree = "<group>"; };
+		18B8ACBE20BBF78100D3C19A /* YMDiaryPostsBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsBaseLayout.h; sourceTree = "<group>"; };
+		18B8ACBF20BBF78200D3C19A /* YMDiaryPostsCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsCellLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +124,8 @@
 		184D44A82094160D00E7BD8A /* TestScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				1857822720B64EAE00CE7CFC /* DrawImage */,
+				18A32BD920B55E3000A2F23F /* 1.jpg */,
 				184D44A92094160D00E7BD8A /* AppDelegate.h */,
 				184D44AA2094160D00E7BD8A /* AppDelegate.m */,
 				184D44AC2094160D00E7BD8A /* ViewController.h */,
@@ -113,11 +133,12 @@
 				184D44DC209477B600E7BD8A /* YMScrollView.h */,
 				184D44DD209477B600E7BD8A /* YMScrollView.m */,
 				184D44AF2094160D00E7BD8A /* Main.storyboard */,
-				1840A87F209C0C450085F7E5 /* exportOptionsPlist.plist */,
 				184D44B22094161400E7BD8A /* Assets.xcassets */,
 				184D44B42094161400E7BD8A /* LaunchScreen.storyboard */,
 				184D44B72094161400E7BD8A /* Info.plist */,
 				184D44B82094161400E7BD8A /* main.m */,
+				18A32BDB20B5608500A2F23F /* UIImage+TestImage.h */,
+				18A32BDC20B5608500A2F23F /* UIImage+TestImage.m */,
 			);
 			path = TestScrollView;
 			sourceTree = "<group>";
@@ -138,6 +159,31 @@
 				184D44CF2094161400E7BD8A /* Info.plist */,
 			);
 			path = TestScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		1857822720B64EAE00CE7CFC /* DrawImage */ = {
+			isa = PBXGroup;
+			children = (
+				18B8ACBE20BBF78100D3C19A /* YMDiaryPostsBaseLayout.h */,
+				18B8ACBB20BBF78000D3C19A /* YMDiaryPostsBaseLayout.m */,
+				18B8ACBF20BBF78200D3C19A /* YMDiaryPostsCellLayout.h */,
+				18B8ACBC20BBF78000D3C19A /* YMDiaryPostsCellLayout.m */,
+				18B8ACBD20BBF78100D3C19A /* YMDiaryPostsCellManager.h */,
+				18B8ACBA20BBF77F00D3C19A /* YMDiaryPostsCellManager.m */,
+				1857822B20B64F6E00CE7CFC /* Config */,
+				1857822820B64F5C00CE7CFC /* UIImage+MLDraw.h */,
+				1857822920B64F5C00CE7CFC /* UIImage+MLDraw.m */,
+				18B8ACB820BBF62700D3C19A /* UIImageView+CornerRadius.h */,
+				18B8ACB720BBF62700D3C19A /* UIImageView+CornerRadius.m */,
+			);
+			path = DrawImage;
+			sourceTree = "<group>";
+		};
+		1857822B20B64F6E00CE7CFC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +289,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1840A880209C0C460085F7E5 /* exportOptionsPlist.plist in Resources */,
 				184D44B62094161400E7BD8A /* LaunchScreen.storyboard in Resources */,
+				18A32BDA20B55E3000A2F23F /* 1.jpg in Resources */,
 				184D44B32094161400E7BD8A /* Assets.xcassets in Resources */,
 				184D44B12094160D00E7BD8A /* Main.storyboard in Resources */,
 			);
@@ -274,7 +320,13 @@
 				184D44AE2094160D00E7BD8A /* ViewController.m in Sources */,
 				184D44DE209477B600E7BD8A /* YMScrollView.m in Sources */,
 				184D44B92094161400E7BD8A /* main.m in Sources */,
+				18A32BDD20B5608500A2F23F /* UIImage+TestImage.m in Sources */,
+				1857822A20B64F5C00CE7CFC /* UIImage+MLDraw.m in Sources */,
+				18B8ACC120BBF78200D3C19A /* YMDiaryPostsBaseLayout.m in Sources */,
 				184D44AB2094160D00E7BD8A /* AppDelegate.m in Sources */,
+				18B8ACC220BBF78200D3C19A /* YMDiaryPostsCellLayout.m in Sources */,
+				18B8ACB920BBF62700D3C19A /* UIImageView+CornerRadius.m in Sources */,
+				18B8ACC020BBF78200D3C19A /* YMDiaryPostsCellManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
